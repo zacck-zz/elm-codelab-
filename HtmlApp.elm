@@ -4,7 +4,7 @@ import Html exposing (Html, div, text, program)
 
 
 {- Model
-   Here we declare that our component's state is just a string and alias that tto the name `Model`
+   Here we declare that our component's state is just a string and alias that to the name `Model`
 -}
 
 
@@ -51,7 +51,7 @@ update msg model =
 
 
 
--- SUBSCRRIPTIONS We use subscriptions to accept external input in our applications.
+-- SUBSCRIPTIONS We use subscriptions to accept external input in our applications.
 
 
 subscriptions : Model -> Sub Msg
